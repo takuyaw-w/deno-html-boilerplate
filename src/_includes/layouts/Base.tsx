@@ -1,4 +1,4 @@
-import { ComponentChildren } from "preact";
+import type { ComponentChildren } from "preact";
 import type { Site } from "../../_data/site.ts";
 import Head from "./Head.tsx";
 
