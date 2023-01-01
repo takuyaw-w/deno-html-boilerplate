@@ -3,7 +3,8 @@
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
     "build": "deno task lume",
-    "serve": "deno task lume -s"
+    "serve": "deno task lume -s",
+    "lintfix": "deno fmt && deno lint"
   },
   "compilerOptions": {
     "jsx": "react-jsx",

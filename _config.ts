@@ -13,6 +13,7 @@ const site = lume({
     port: 8080,
     open: true,
   },
+  location: new URL("https://example.com"),
 });
 
 site

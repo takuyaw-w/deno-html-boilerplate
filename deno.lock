@@ -431,7 +431,11 @@
     "https://deno.land/x/nunjucks@3.2.3-2/src/runtime.js": "e6ebe0265797eaa8e1d974c1e0414c4e4359705024a6617e56fcdaadb3828696",
     "https://deno.land/x/nunjucks@3.2.3-2/src/tests.js": "0f68a51c0be20e82eb033c913bb10bca1fc7eb4fcc603943515aac4608e88999",
     "https://deno.land/x/nunjucks@3.2.3-2/src/transformer.js": "401e3b1588ea2933883cc43cc329077f5b1a3a5da391f9dfc0a2a63a1a89660c",
-    "https://deno.land/x/nunjucks@3.2.3-2/src/waterfall.js": "4d8878b3ebcf0a1b4bf9e7575e2f30bc6467cb8ee3717b80754c945cde661b9e"
+    "https://deno.land/x/nunjucks@3.2.3-2/src/waterfall.js": "4d8878b3ebcf0a1b4bf9e7575e2f30bc6467cb8ee3717b80754c945cde661b9e",
+    "https://esm.sh/preact@10.11.3": "bb13c4579a68025fbfe7304c0c4dba6ec286c89bce5db830e56507851b208b80",
+    "https://esm.sh/stable/preact@10.11.3/deno/preact.js": "d17d6b3217ccb0352f68bbd47930aa25d260c1a544f45bcbcf4cd1ded9d630bb",
+    "https://esm.sh/v102/preact@10.11.3/src/index.d.ts": "76842a9d103548261ee001f2aee5fa5cacc8b1b4b4032af537ed84603c8f4a31",
+    "https://esm.sh/v102/preact@10.11.3/src/jsx.d.ts": "77ce5bd7324455c9f6dc85bfc3c94b733acb92cc98fdf82e4b1059c8bca7866d"
   },
   "npm": {
     "specifiers": {

@@ -1,4 +1,5 @@
-export const title = "index";
+export const title = "about";
+export const layout = "layouts/Base.tsx";
 
 export default (data) => {
   return (

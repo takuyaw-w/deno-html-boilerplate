@@ -1,6 +1,10 @@
-import { Page } from "lume/core.ts";
+type Props = {
+  pageTitle: string;
+  siteTitle: string;
+};
 
-export default function Head({ pageTitle, siteTitle }) {
+export default function Head(props: Props) {
+  const { pageTitle, siteTitle } = props;
   const title = pageTitle !== undefined
     ? `${pageTitle} - ${siteTitle}`
     : `${siteTitle}`;

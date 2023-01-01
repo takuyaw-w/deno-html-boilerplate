@@ -1,10 +1,22 @@
-import { title } from "../../index.tsx";
+import { ComponentChildren } from "preact";
+import type { Site } from "../../_data/site.ts";
 import Head from "./Head.tsx";
 
-export default ({ lang, title, siteTitle, children }) => {
+type Props = {
+  children: ComponentChildren;
+  site: Site;
+  title: string;
+};
+
+export default ({ site, title, children }: Props) => {
+  const headProps = {
+    pageTitle: title,
+    siteTitle: site.title,
+  };
+
   return (
-    <html lang={lang}>
-      <Head pageTitle={title} siteTitle={siteTitle} />
+    <html lang={site.lang}>
+      <Head {...headProps} />
       <body>
         {children}
         <script src="/js/main.js"></script>
