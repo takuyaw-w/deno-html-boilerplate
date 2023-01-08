@@ -4,7 +4,7 @@ import esbuild from "lume/plugins/esbuild.ts";
 import windi from "lume/plugins/windi_css.ts";
 import jsx_preact from "lume/plugins/jsx_preact.ts";
 import sourceMaps from "lume/plugins/source_maps.ts";
-import sitemap from "lume/plugins/sitemap.ts";
+import metas from "lume/plugins/metas.ts";
 
 const site = lume({
   src: "./src",
@@ -35,7 +35,7 @@ site
   )
   .use(windi())
   .use(jsx_preact())
-  .use(sitemap())
+  .use(metas())
   .use(sourceMaps());
 
 export default site;

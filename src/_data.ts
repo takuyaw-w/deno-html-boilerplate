@@ -4,9 +4,11 @@ const site = {
 } as const;
 
 const metas = {
-  hogehoge: "hohoho",
-};
+  site: "=site.title",
+  lang: "=site.lang",
+} as const;
 
 export type Site = typeof site;
+export type Meta = typeof metas;
 
 export default { site, metas };
