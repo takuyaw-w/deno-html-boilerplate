@@ -1,12 +1,11 @@
-import type { ComponentChildren } from "preact";
-import type { Site } from "../../_data/site.ts";
+import { PageData } from "lume/core.ts";
+import type { Site } from "../../_data.ts";
 import Head from "./Head.tsx";
 
-type Props = {
-  children: ComponentChildren;
+interface Props extends PageData {
   site: Site;
   title: string;
-};
+}
 
 export default ({ site, title, children }: Props) => {
   const headProps = {

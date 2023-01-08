@@ -1,4 +1,4 @@
-export const layout = "layouts/Base.tsx";
+export const layout = "layouts/Main.tsx";
 
 export default (data) => {
   return (
